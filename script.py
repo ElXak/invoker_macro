@@ -7,7 +7,8 @@ START = -111
 
 def press(key):
     keyboard.send(key)
-    time.sleep(random.uniform(.025,.035))
+    time.sleep(random.uniform(.050,.055
+                             ))
 
 def cold_snap():        press("q"); press("q"); press("q")
 def ghost_walk():       press("w"); press("q"); press("q")
