@@ -25,8 +25,9 @@ def spell():
     press("r")
     time.sleep(random.uniform(0.02, 0.04))
     press("d")
-    time.sleep(random.uniform(0.08, 0.12))
+    time.sleep(random.uniform(0.1, 0.15))
     mouse.click("left")
+    time.sleep(random.uniform(0.1, 0.15))
 
 def full_combo():
     global START
